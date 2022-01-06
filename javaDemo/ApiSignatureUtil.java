@@ -12,7 +12,7 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-public class ApiSignature {
+public class ApiSignatureUtil {
     public static String accessKeyId = "accessKeyId";
     public static String signatureMethod = "signatureMethod";
     public static String signatureMethodValue = "hmacSHA256";
